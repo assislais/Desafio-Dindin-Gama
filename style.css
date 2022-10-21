@@ -460,8 +460,7 @@ footer {
         font-weight: 500;
         font-size: 25px;
     }  
-<<<<<<< HEAD
+    .container > article {
+        min-width: 337px auto;
+    }
 }
-=======
-}
->>>>>>> 620e1a123074a96cd27c6ab6d8a1daecfcf0340c
