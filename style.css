@@ -303,7 +303,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }    
-    #titulo > h1 {
+    #titulo > h2 {
         font-size: 40px;
     }    
     .container > article > img {
