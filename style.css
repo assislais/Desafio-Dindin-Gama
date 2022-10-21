@@ -177,6 +177,9 @@ header {
 #titulo > h2 {    
     display: flex;
     justify-content: center;
+	font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;    
 }
 .container {
     display: flex;
