@@ -177,7 +177,7 @@ header {
 #titulo > h2 {    
     display: flex;
     justify-content: center;
-	font-weight: 500;
+    font-weight: 500;
     font-size: 50px;
     color: #FF4081;    
 }
@@ -306,7 +306,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }    
-    #titulo > h2 {
+    #titulo > h1 {
         font-size: 40px;
     }    
     .container > article > img {
@@ -428,6 +428,23 @@ footer {
     .intro {
         justify-content: center;
     }
+    .posts-blog > p {
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .posts-blog {
+        max-width: 418px;
+        max-height: 320px;  
+    }
+    .posts-blog > img {
+        width: 415px;
+        height: 207px;
+        background: #C4C4C4;
+    }
+    .posts-blog > h3 {
+        font-weight: 500;
+        font-size: 25px;
+    }
 }
 @media screen and (min-width: 1024px) and (max-width: 1340px) {
     .posts-blog {
@@ -442,10 +459,5 @@ footer {
     .posts-blog > h3 {
         font-weight: 500;
         font-size: 25px;
-        color: #FF4081;
-    }
-    .posts-blog > p {
-        font-weight: 300;
-        font-size: 13px;
-    }
+    }  
 }
