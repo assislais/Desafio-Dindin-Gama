@@ -1,5 +1,7 @@
 body {
-    font-family: 'Ubuntu', sans-serif;    
+    font-family: 'Ubuntu', sans-serif;   
+    margin: 0; 
+    padding: 0;
 }
 
 /*HEADER*/
@@ -30,150 +32,72 @@ header {
     text-transform: uppercase;
 }
 
-/*INTRO*/
-.intro {
-    display: flex;    
-	flex-wrap: wrap;
-    justify-content: space-between;
-	margin: 5% 13% 5% 15%;
-}
-.intro > article {    
-    max-width: 461px;
-    flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: 150px;
-}
-.intro > article > img {
-    max-width: auto;
-    max-height: auto;
-}
-.intro > article > h1 {
-    font-weight: 700;
-    font-size: 47px;
-    color: #009688;
-}
-.intro > article > p {    
-    height: 110px;
-    font-weight: 300;
-    font-size: 20px;
-    color: #000000;
+
+/*banner*/
+
+#imagem-banner {
+    height: 511px;
+    width: 501px;
+    top: 252px;
+    float: right;
 }
 
-/*MAIN*/
-.formulario {
+#banner-inicio {
+    background-color: #FFFFFF;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    width: 1050px;
+    margin: 125px auto 0;
 }
-.formulario > h1 {    
+
+.banner1 > h1 {
+    
+width: 488px;
+height: 216px;
+left: 206px;
+top: 242px;
+font-family: 'Ubuntu';
+    font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 60px;
+    line-height: 69px;
     color: #FF4081;
 }
-.dados-form {
-    width: 493px;
-    height: 32px;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    margin: 7px;
-    font-family: 'Nunito', sans-serif;
+
+.banner1 > p {
+    width: 462px;
+    height: 62px;
+    margin-bottom: 42px;
+    font-family: 'Ubuntu';
+    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 27px;
+    line-height: 31px;
+
+    color: #555555;
 }
-#caixa-msg {
-    width: 493px;
-    height: 193px;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    margin: 7px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
-#pag-contato {
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 10% 20% 10%; 
-}
-#btn-enviar {    
-    width: 108px;
-    height: 20px;
-    font-weight: 800;
-    font-size: 16px;
-    text-align: center; 
+
+.banner1 > .botao {
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: Ubuntu;
+    margin: 0;
     color: #FFFFFF;
-    background-color: #FF4081;
-    border-radius: 50px;
-    border-style: none;
-    padding: 5px;
-    margin: 7px;
-}
-.container-post {
-    display: flex;         
-    flex-direction: row;    
-    justify-content: space-between;    
-    padding: 10%;
-    flex-wrap: wrap;
-}
-.posts-blog {
-    max-width: 518px;
-    max-height: 420px;  
-    margin-bottom: 10%;
-}
-.posts-blog > a > img {
-    width: 100%;
-    height: 259px;
-    background: #C4C4C4;
-}
-.posts-blog > h3 {
-    font-weight: 500;
-    font-size: 30px;
+    border-radius: 62px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    background: #fff;
     color: #FF4081;
+    padding: 12px 34px;
 }
-.posts-blog > p {
-    font-weight: 300;
-    font-size: 17px;
-}
-#pag-post {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 7% 12.5% 15% 12.5%;
-}
-#pag-post > h2 {    
-    margin: 10px;
-    font-weight: 500;
-    font-size: 50px;
-    color: #FF4081;    
-}
-#pag-post > h6 {    
-    margin: 0px;
-    font-weight: 300;
-    font-size: 18px;
-    color: #9D9D9D;
-}
-#pag-post > img {
-    margin: 7% 0 6% 0;    
-    width: 100%;
-    height: 465px;
-    background: #C4C4C4;
-}
-.post > p {
-    justify-content: flex-start;
-    font-weight: 300;
-    font-size: 18px;
-    color: #000000;    
-}
-.post > h3 {
-    font-weight: 500;
-    font-size: 26px;
-    color: #419488;
-}
-/*CURSOS*/
+
+
+/* inicio curso - index*/
+
+
 #titulo > h2 {    
     display: flex;
     justify-content: center;
@@ -184,10 +108,11 @@ header {
 .container {
     display: flex;
     justify-content:space-evenly;
-    margin: 8%;
-    background: #F7F7F7;
+    margin: 109px auto 0;
+    background: #F6F6F6;
     text-align: center;    
     gap: 5rem;
+    width: 1050px;
 }
 .container > article {
     display: flex;
@@ -202,7 +127,7 @@ header {
     width: auto;
     height: 279px;
 }
-.container > article > h3 {
+.container > article > h2 {
     font-weight: 700;
     font-size: 25px;
     color: #FF4081;
@@ -228,29 +153,157 @@ header {
     padding-top: 17px;
 }
 
-/*FOOTER*/
+
+/* depoimentos */
+
+#conteiner-depoimentos {
+    background-color: #f7f7f7;
+    justify-content:space-evenly;
+    margin: 8%;
+  
+    gap: 97px;
+
+}
+
+.h2-depoimentos{
+    color: #009688;
+
+}
+
+.depoimentos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 78px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.depo-box {
+    display: flex;
+   
+}
+
+.depo-conteudo {
+    margin-left: 28px;
+    width: 363px;
+}
+
+
+.img-depo {
+    display: flex;
+    width: 104px;
+    height: 104px;
+}
+
+
+/* mais conteudos */
+
+.blog {
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    width: 100%;
+    height: 730px;
+    display: inline-block;
+    top: 2260px;
+}
+
+.h2-conteudo {
+    color: #009688;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 128px;
+    width: 530px;
+    height: 43px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+
+}
+
+.flex-blog {
+    display: inline-block;
+    width: 319px;
+    height: 193px;
+    margin-left: 128px;
+    margin-top: 207px;
+    gap: 109px;
+}
+
+strong {
+    color: #009688;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+.blog-text {
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    width: 319px;
+    height: 114px;
+}
+
+.botao-container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.botao-blog {
+    
+    font-family: Ubuntu;
+    margin-top: 101px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF4081;
+    border-radius: 62px;
+    width: 268px;
+    height: 51px;
+    border: 2px solid #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+/* footer */
+
 footer {
     display: flex;
     height: 207px;
     background: #2E948A;
     justify-content: space-around;
     align-items: center;
-    margin: -8px;
+    
 }
 .info-footer {
-    list-style: none; 
+    list-style: none;
 }
 .info-footer > li {
-    margin: 5px; 
+    margin: 5px;
 }
 .info-footer > li > a {
-    text-decoration: none; 
+    text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
 }
-
+ 
 /*Botao Footer*/
+
 #retangulo {
     display: flex;
     flex-direction: column;    
@@ -262,8 +315,8 @@ footer {
     height: 100%;
     font-weight: 400;
     font-size: 20px;
-    text-align: center; 
-    text-decoration: none; 
+    text-align: center;
+    text-decoration: none;
     color: #FFFFFF;
     background: #2E948A;
     border: 2px solid #FFFFFF;
@@ -272,195 +325,214 @@ footer {
     margin: 6px;
 }
 
-/*RESPONSIVIDADE - Media Queries*/
-@media screen and (max-width: 480px) {
-    .formulario {
-       max-width: 500px;
-       max-height: auto;
-    }
-    .dados-form {
-        width: 90%;
-        height: auto;
-    }
-    #caixa-msg {
-        width: 90%;
-        height: 120px;
-    }
-    #pag-contato {
-        display: grid;
-        justify-content: center;
-        margin: 0px;
-    }
-    #img-contato {
-        width: 70%;
-        height: 70%;
-        margin: 30px;
-    }
-    header {        
-        justify-content:center;  
-    }
-    #pag-post > h2 {
-        font-size: 40px;
-    }
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }    
-    #titulo > h1 {
-        font-size: 40px;
-    }    
-    .container > article > img {
-        max-height: 40%;
-    }
-    .posts-blog > h3 {
-        font-weight: 500;
-        font-size: 25px;
-        color: #FF4081;
-    }
-    .posts-blog { 
-        margin-bottom: 20%;
-    }
-    .container-post {
-        justify-content: center;
-    } 
-    footer {
-        height: 167px;
-    }
-    #img-footer {
-        width: 90%;
-    }   
-    .info-footer {
-        width: 80%;
-    }
-    .botao-footer {
-        font-size: 15px;
-    }
+
+/* INICIO PAGINA CURSOS */
+
+.pagina-de-cursos {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    background: #FFFFFF; 
 }
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    .formulario {
-        max-width: 660px;
-        max-height: auto;
-     }
-     .dados-form {
-         width: 100%;
-         height: auto;
-     }
-     #caixa-msg {
-         width: 100%;
-         height: 120px;
-     }
-     #pag-contato {
-         display: grid;
-         justify-content: center;
-         margin: 0px;
-     }
-     #img-contato {
-         width: 70%;
-         height: 70%;
-         margin: 30px;
-     }
-    header {        
-        justify-content:center;  
-    }
-    #pag-post > h2 {
-        font-size: 40px;
-    }
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }    
-    .container > article > img {
-        max-height: 40%;
-    }
-    .posts-blog > h3 {
-        font-weight: 500;
-        font-size: 25px;
-        color: #FF4081;
-    }
-    .container-post {
-        justify-content: center;    
-    }
-    footer {
-        height: 167px;
-    }
-    #img-footer {
-        width: 95%;
-    }     
-    #retangulo {
-        width: auto;
-    }
-    .botao-footer {
-        font-size: 16px;
-    }
+
+.h1-cursos {
+    color: #FF4081;
+    margin-left: 82px;
+    margin-top: 81px;
+    width: 263px;
+    height: 69px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
 }
-@media screen and (min-width: 768px) and (max-width:1023px) {
-    .formulario {
-        max-width: 660px;
-        max-height: auto;
-     }
-     .dados-form {
-         width: 100%;
-         height: auto;
-     }
-     #caixa-msg {
-         width: 100%;
-         height: 100px;
-     }
-     #img-contato {
-        width: 40%;
-        height: 40%;
-        margin: 30px;
-    }
-    .container > article > img {
-        max-height: 40%;
-    }    
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    } 
-    .container > article {
-        flex: 1;
-    }
-    .container-post {
-        justify-content: center;
-    }    
-    .intro {
-        justify-content: center;
-    }
-    .posts-blog > p {
-        font-weight: 300;
-        font-size: 13px;
-    }
-    .posts-blog {
-        max-width: 418px;
-        max-height: 320px;  
-    }
-    .posts-blog > img {
-        width: 415px;
-        height: 207px;
-        background: #C4C4C4;
-    }
-    .posts-blog > h3 {
-        font-weight: 500;
-        font-size: 25px;
-    }
+
+.p-educacao {
+    width: 317px;
+    height: 23px;
+    margin-left: 82px;
+    margin-top: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
-@media screen and (min-width: 1024px) and (max-width: 1340px) {
-    .posts-blog {
-        max-width: 418px;
-        max-height: 320px;  
-    }
-    .posts-blog > img {
-        width: 415px;
-        height: 207px;
-        background: #C4C4C4;
-    }
-    .posts-blog > h3 {
-        font-weight: 500;
-        font-size: 25px;
-    }  
-    .container > article {
-        min-width: 337px auto;
-    }
+
+.card-curso1 {
+    width: 1157px;
+    height: 381px;
+    margin-left: 112px;
+    margin-top: 95px;
+    display: flex; 
+    
+}
+
+.card-curso2 {
+    width: 1157px;
+    height: 385px;
+    margin-left: 112px;
+    margin-top: 180px;
+    display: flex;
+}
+
+.card-curso3 {
+    width: 1156px;
+    height: 498px;
+    margin-left: 128px;
+    margin-top: 93px;
+    margin-bottom: 202px;
+    display: flex;
+}
+
+
+hr {
+    width: 1244px;
+    height: 5px;
+    margin-left: 82px;
+    margin-top: 68px;
+    background: #C4C4C4;
+}
+
+.botao-verde-curso {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 233px;
+    height: 51px;
+    background: #2E948A;
+    border-radius: 62px;
+    border: 2px solid #2E948A;
+    margin-top: 53px;
+}
+
+.h2-curso {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    width: 512px;
+   
+}
+
+.p-curso {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 105px;
+    width: 724px;
+    margin-top: 37px;
+}
+
+.conteudo-card-curso {
+    margin-left: 53px;
+    width: 724px;
+}
+
+
+
+/* inicio pagina-aulas */
+
+#card-intro {
+    background-color: #FFFFFF;
+    width: 929px;
+    height: auto;
+    margin: 81px auto 80px;
+    display: flex;
+    
+}
+
+
+
+.card-intro > h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    width: 512px;
+    margin-left: 0;
+}
+
+.card-intro > p {
+    
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 40px;
+    width: 512px;
+    margin-top: 37px;
+    align-content: center;
+
+}
+
+.card-img-intro {
+    height: 381px;
+    width: 380px;
+    margin-top: 0px;
+    margin-left: 88px;
+    
+}
+
+.divisao-aula {
+    width: 1244px;
+    height: 3px;
+    margin-top: 73px;
+    background: #C4C4C4;
+}
+
+
+#card-aulas {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 75px;
+    
+}
+
+.card-aula {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.card-aula > img {
+    
+    margin-top: 75px;
+    width: 462px;
+    height: 261px;
+}
+
+.conteudo-card-aula > h2 {
+    margin-left: 76px;
+    margin-top: 75px;
+    width: 501px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.conteudo-card-aula > p {
+    margin-left: 76px;
+    width: 501px;
 }
